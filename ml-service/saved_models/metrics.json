@@ -1,0 +1,626 @@
+{
+  "best_model": "Logistic Regression",
+  "training_samples": 32000,
+  "validation_samples": 8000,
+  "test_samples": 10000,
+  "selection_metric": "validation_roc_auc",
+  "models": {
+    "Random Forest": {
+      "accuracy": 0.8414,
+      "precision": 0.447,
+      "recall": 0.6897,
+      "f1_score": 0.5424,
+      "roc_auc": 0.87,
+      "validation_roc_auc": 0.8612,
+      "confusion_matrix": {
+        "true_negative": 7474,
+        "false_positive": 1163,
+        "false_negative": 423,
+        "true_positive": 940
+      },
+      "roc_curve": [
+        {
+          "fpr": 0.0,
+          "tpr": 0.0
+        },
+        {
+          "fpr": 0.0036,
+          "tpr": 0.1739
+        },
+        {
+          "fpr": 0.0083,
+          "tpr": 0.2443
+        },
+        {
+          "fpr": 0.0124,
+          "tpr": 0.3103
+        },
+        {
+          "fpr": 0.0179,
+          "tpr": 0.3419
+        },
+        {
+          "fpr": 0.0242,
+          "tpr": 0.3844
+        },
+        {
+          "fpr": 0.0307,
+          "tpr": 0.4226
+        },
+        {
+          "fpr": 0.041,
+          "tpr": 0.4585
+        },
+        {
+          "fpr": 0.0508,
+          "tpr": 0.4967
+        },
+        {
+          "fpr": 0.0625,
+          "tpr": 0.526
+        },
+        {
+          "fpr": 0.0718,
+          "tpr": 0.551
+        },
+        {
+          "fpr": 0.0839,
+          "tpr": 0.5811
+        },
+        {
+          "fpr": 0.0951,
+          "tpr": 0.6082
+        },
+        {
+          "fpr": 0.1059,
+          "tpr": 0.6324
+        },
+        {
+          "fpr": 0.1162,
+          "tpr": 0.661
+        },
+        {
+          "fpr": 0.134,
+          "tpr": 0.6882
+        },
+        {
+          "fpr": 0.1465,
+          "tpr": 0.7124
+        },
+        {
+          "fpr": 0.1617,
+          "tpr": 0.7344
+        },
+        {
+          "fpr": 0.1771,
+          "tpr": 0.7594
+        },
+        {
+          "fpr": 0.1956,
+          "tpr": 0.7843
+        },
+        {
+          "fpr": 0.2204,
+          "tpr": 0.8078
+        },
+        {
+          "fpr": 0.2433,
+          "tpr": 0.8313
+        },
+        {
+          "fpr": 0.2905,
+          "tpr": 0.8533
+        },
+        {
+          "fpr": 0.3344,
+          "tpr": 0.876
+        },
+        {
+          "fpr": 0.3905,
+          "tpr": 0.898
+        },
+        {
+          "fpr": 0.4378,
+          "tpr": 0.9193
+        },
+        {
+          "fpr": 0.4982,
+          "tpr": 0.9398
+        },
+        {
+          "fpr": 0.6076,
+          "tpr": 0.9596
+        },
+        {
+          "fpr": 0.7256,
+          "tpr": 0.9802
+        },
+        {
+          "fpr": 1.0,
+          "tpr": 1.0
+        }
+      ],
+      "top_features": {
+        "credit_burden_index": 0.2096,
+        "credit_utilization_ratio": 0.1173,
+        "payment_reliability_score": 0.096,
+        "debt_to_income_ratio": 0.0696,
+        "savings_to_debt_ratio": 0.068,
+        "savings_balance": 0.0536,
+        "missed_payments_last_2yrs": 0.0473,
+        "credit_history_years": 0.0358,
+        "disposable_monthly_cashflow": 0.0299,
+        "loan_to_income_ratio": 0.0269,
+        "annual_income": 0.0269,
+        "total_debt": 0.0255,
+        "open_credit_lines": 0.0241,
+        "monthly_expenses": 0.0228,
+        "age": 0.0218
+      }
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.8975,
+      "precision": 0.7071,
+      "recall": 0.4233,
+      "f1_score": 0.5296,
+      "roc_auc": 0.8719,
+      "validation_roc_auc": 0.8657,
+      "confusion_matrix": {
+        "true_negative": 8398,
+        "false_positive": 239,
+        "false_negative": 786,
+        "true_positive": 577
+      },
+      "roc_curve": [
+        {
+          "fpr": 0.0,
+          "tpr": 0.0
+        },
+        {
+          "fpr": 0.0034,
+          "tpr": 0.1812
+        },
+        {
+          "fpr": 0.0071,
+          "tpr": 0.248
+        },
+        {
+          "fpr": 0.0118,
+          "tpr": 0.2942
+        },
+        {
+          "fpr": 0.0177,
+          "tpr": 0.3551
+        },
+        {
+          "fpr": 0.0226,
+          "tpr": 0.3925
+        },
+        {
+          "fpr": 0.0291,
+          "tpr": 0.4307
+        },
+        {
+          "fpr": 0.0388,
+          "tpr": 0.4629
+        },
+        {
+          "fpr": 0.0476,
+          "tpr": 0.4982
+        },
+        {
+          "fpr": 0.0581,
+          "tpr": 0.5312
+        },
+        {
+          "fpr": 0.0682,
+          "tpr": 0.5649
+        },
+        {
+          "fpr": 0.0786,
+          "tpr": 0.5913
+        },
+        {
+          "fpr": 0.0931,
+          "tpr": 0.6178
+        },
+        {
+          "fpr": 0.1033,
+          "tpr": 0.642
+        },
+        {
+          "fpr": 0.1157,
+          "tpr": 0.6691
+        },
+        {
+          "fpr": 0.1259,
+          "tpr": 0.6941
+        },
+        {
+          "fpr": 0.1448,
+          "tpr": 0.7168
+        },
+        {
+          "fpr": 0.1613,
+          "tpr": 0.7381
+        },
+        {
+          "fpr": 0.1792,
+          "tpr": 0.7667
+        },
+        {
+          "fpr": 0.2015,
+          "tpr": 0.7894
+        },
+        {
+          "fpr": 0.2261,
+          "tpr": 0.8122
+        },
+        {
+          "fpr": 0.2585,
+          "tpr": 0.8335
+        },
+        {
+          "fpr": 0.3046,
+          "tpr": 0.8555
+        },
+        {
+          "fpr": 0.3455,
+          "tpr": 0.876
+        },
+        {
+          "fpr": 0.3948,
+          "tpr": 0.898
+        },
+        {
+          "fpr": 0.4427,
+          "tpr": 0.9186
+        },
+        {
+          "fpr": 0.4995,
+          "tpr": 0.9398
+        },
+        {
+          "fpr": 0.5784,
+          "tpr": 0.9596
+        },
+        {
+          "fpr": 0.7265,
+          "tpr": 0.9809
+        },
+        {
+          "fpr": 1.0,
+          "tpr": 1.0
+        }
+      ],
+      "top_features": {
+        "credit_burden_index": 0.5648,
+        "credit_utilization_ratio": 0.0744,
+        "savings_to_debt_ratio": 0.0638,
+        "savings_balance": 0.0548,
+        "debt_to_income_ratio": 0.0522,
+        "credit_history_years": 0.0495,
+        "loan_to_income_ratio": 0.0324,
+        "disposable_monthly_cashflow": 0.0175,
+        "employment_years": 0.0133,
+        "open_credit_lines": 0.0096,
+        "missed_payments_last_2yrs": 0.0088,
+        "age": 0.0087,
+        "annual_income": 0.0073,
+        "expense_to_income_ratio": 0.0069,
+        "total_debt": 0.0068
+      }
+    },
+    "Logistic Regression": {
+      "accuracy": 0.8042,
+      "precision": 0.3915,
+      "recall": 0.7872,
+      "f1_score": 0.5229,
+      "roc_auc": 0.8745,
+      "validation_roc_auc": 0.8675,
+      "confusion_matrix": {
+        "true_negative": 6969,
+        "false_positive": 1668,
+        "false_negative": 290,
+        "true_positive": 1073
+      },
+      "roc_curve": [
+        {
+          "fpr": 0.0,
+          "tpr": 0.0
+        },
+        {
+          "fpr": 0.0036,
+          "tpr": 0.2194
+        },
+        {
+          "fpr": 0.0083,
+          "tpr": 0.2869
+        },
+        {
+          "fpr": 0.0145,
+          "tpr": 0.3514
+        },
+        {
+          "fpr": 0.0192,
+          "tpr": 0.3874
+        },
+        {
+          "fpr": 0.0264,
+          "tpr": 0.427
+        },
+        {
+          "fpr": 0.0339,
+          "tpr": 0.4644
+        },
+        {
+          "fpr": 0.0406,
+          "tpr": 0.4872
+        },
+        {
+          "fpr": 0.0497,
+          "tpr": 0.5172
+        },
+        {
+          "fpr": 0.0604,
+          "tpr": 0.5444
+        },
+        {
+          "fpr": 0.0709,
+          "tpr": 0.5708
+        },
+        {
+          "fpr": 0.0845,
+          "tpr": 0.5965
+        },
+        {
+          "fpr": 0.0971,
+          "tpr": 0.6236
+        },
+        {
+          "fpr": 0.1054,
+          "tpr": 0.6486
+        },
+        {
+          "fpr": 0.1175,
+          "tpr": 0.672
+        },
+        {
+          "fpr": 0.1321,
+          "tpr": 0.697
+        },
+        {
+          "fpr": 0.1468,
+          "tpr": 0.7227
+        },
+        {
+          "fpr": 0.1616,
+          "tpr": 0.7469
+        },
+        {
+          "fpr": 0.1771,
+          "tpr": 0.7696
+        },
+        {
+          "fpr": 0.2037,
+          "tpr": 0.7946
+        },
+        {
+          "fpr": 0.2306,
+          "tpr": 0.8158
+        },
+        {
+          "fpr": 0.2618,
+          "tpr": 0.8371
+        },
+        {
+          "fpr": 0.313,
+          "tpr": 0.8577
+        },
+        {
+          "fpr": 0.3475,
+          "tpr": 0.8797
+        },
+        {
+          "fpr": 0.3945,
+          "tpr": 0.8995
+        },
+        {
+          "fpr": 0.4366,
+          "tpr": 0.92
+        },
+        {
+          "fpr": 0.4955,
+          "tpr": 0.9398
+        },
+        {
+          "fpr": 0.5789,
+          "tpr": 0.9604
+        },
+        {
+          "fpr": 0.7123,
+          "tpr": 0.9802
+        },
+        {
+          "fpr": 1.0,
+          "tpr": 1.0
+        }
+      ],
+      "top_features": {
+        "savings_balance": 0.596,
+        "credit_burden_index": 0.5558,
+        "home_ownership_OWN": 0.5443,
+        "credit_utilization_ratio": 0.5144,
+        "credit_history_years": 0.4771,
+        "missed_payments_last_2yrs": 0.4411,
+        "debt_to_income_ratio": 0.3614,
+        "savings_to_debt_ratio": 0.2425,
+        "disposable_monthly_cashflow": 0.2256,
+        "num_derogatory_records": 0.2009,
+        "loan_purpose_MAJOR_PURCHASE": 0.1797,
+        "hard_inquiries_last_6m": 0.1697,
+        "employment_years": 0.1674,
+        "loan_purpose_EDUCATION": 0.1563,
+        "loan_to_income_ratio": 0.1405
+      }
+    },
+    "Decision Tree": {
+      "accuracy": 0.765,
+      "precision": 0.3393,
+      "recall": 0.7645,
+      "f1_score": 0.47,
+      "roc_auc": 0.8449,
+      "validation_roc_auc": 0.8394,
+      "confusion_matrix": {
+        "true_negative": 6608,
+        "false_positive": 2029,
+        "false_negative": 321,
+        "true_positive": 1042
+      },
+      "roc_curve": [
+        {
+          "fpr": 0.0,
+          "tpr": 0.0
+        },
+        {
+          "fpr": 0.0015,
+          "tpr": 0.1034
+        },
+        {
+          "fpr": 0.0096,
+          "tpr": 0.2326
+        },
+        {
+          "fpr": 0.0111,
+          "tpr": 0.2362
+        },
+        {
+          "fpr": 0.0252,
+          "tpr": 0.3712
+        },
+        {
+          "fpr": 0.0419,
+          "tpr": 0.4483
+        },
+        {
+          "fpr": 0.0478,
+          "tpr": 0.46
+        },
+        {
+          "fpr": 0.0724,
+          "tpr": 0.5187
+        },
+        {
+          "fpr": 0.078,
+          "tpr": 0.5378
+        },
+        {
+          "fpr": 0.0867,
+          "tpr": 0.5554
+        },
+        {
+          "fpr": 0.1171,
+          "tpr": 0.6317
+        },
+        {
+          "fpr": 0.1261,
+          "tpr": 0.65
+        },
+        {
+          "fpr": 0.129,
+          "tpr": 0.653
+        },
+        {
+          "fpr": 0.1316,
+          "tpr": 0.6574
+        },
+        {
+          "fpr": 0.2091,
+          "tpr": 0.7322
+        },
+        {
+          "fpr": 0.2188,
+          "tpr": 0.7447
+        },
+        {
+          "fpr": 0.2349,
+          "tpr": 0.7645
+        },
+        {
+          "fpr": 0.2697,
+          "tpr": 0.8012
+        },
+        {
+          "fpr": 0.3036,
+          "tpr": 0.8269
+        },
+        {
+          "fpr": 0.3487,
+          "tpr": 0.8503
+        },
+        {
+          "fpr": 0.3669,
+          "tpr": 0.8635
+        },
+        {
+          "fpr": 0.3896,
+          "tpr": 0.8723
+        },
+        {
+          "fpr": 0.427,
+          "tpr": 0.8892
+        },
+        {
+          "fpr": 0.4544,
+          "tpr": 0.901
+        },
+        {
+          "fpr": 0.5302,
+          "tpr": 0.9156
+        },
+        {
+          "fpr": 0.5736,
+          "tpr": 0.9266
+        },
+        {
+          "fpr": 0.6087,
+          "tpr": 0.934
+        },
+        {
+          "fpr": 0.8405,
+          "tpr": 0.9831
+        },
+        {
+          "fpr": 0.881,
+          "tpr": 0.9912
+        },
+        {
+          "fpr": 1.0,
+          "tpr": 1.0
+        }
+      ],
+      "top_features": {
+        "credit_burden_index": 0.6938,
+        "savings_to_debt_ratio": 0.1237,
+        "credit_history_years": 0.0512,
+        "credit_utilization_ratio": 0.0446,
+        "savings_balance": 0.0353,
+        "debt_to_income_ratio": 0.0157,
+        "loan_to_income_ratio": 0.0143,
+        "annual_income": 0.0057,
+        "open_credit_lines": 0.0042,
+        "disposable_monthly_cashflow": 0.0039,
+        "monthly_expenses": 0.0036,
+        "estimated_monthly_installment": 0.0027,
+        "employment_years": 0.0009,
+        "expense_to_income_ratio": 0.0004,
+        "home_ownership_OWN": 0.0
+      }
+    }
+  },
+  "dataset_summary": {
+    "total_records": 50000,
+    "default_rate": 0.1363,
+    "num_features": 32
+  }
+}

@@ -1,0 +1,153 @@
+# ==============================================================================
+# Git Ignore Configuration — CodeAlpha Task 1: Credit Scoring Model
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Environment Variables, Secrets & Credentials
+# ------------------------------------------------------------------------------
+.env
+.env.*
+*.env
+*.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# Whitelist example environment templates
+!.env.example
+!.env.template
+
+# ------------------------------------------------------------------------------
+# 2. Python Runtime, Bytecode & Virtual Environments
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyo
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing, typing & coverage caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# ------------------------------------------------------------------------------
+# 3. Node.js, Frontend (Next.js) & Backend Gateway (NestJS)
+# ------------------------------------------------------------------------------
+node_modules/
+.pnpm-store/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Next.js build and export outputs
+.next/
+out/
+frontend/.next/
+frontend/out/
+
+# TypeScript & build artifacts
+*.tsbuildinfo
+backend-gateway/dist/
+dist/
+.turbo/
+.parcel-cache/
+
+# ------------------------------------------------------------------------------
+# 4. Logs & Service Runtime Output
+# ------------------------------------------------------------------------------
+*.log
+.logs/
+logs/
+backend-gateway/.logs/
+ml-service/.logs/
+*.pid
+*.seed
+*.pid.lock
+
+# ------------------------------------------------------------------------------
+# 5. Staged Training Checkpoints & Large Model Binaries (>100MB)
+# ------------------------------------------------------------------------------
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+*.weights
+
+# Intermediate / experimental training staging directories
+ml-service/saved_models_*/
+saved_models_*/
+
+# Model Binaries Note:
+# The baseline models in ml-service/saved_models/ (~18MB total) are tracked so the
+# application can be cloned and run immediately without retraining.
+# If you prefer to exclude all serialized .joblib models, uncomment the lines below:
+# ml-service/saved_models/*.joblib
+# !ml-service/saved_models/metrics.json
+
+# ------------------------------------------------------------------------------
+# 6. IDE & Operating System Files
+# ------------------------------------------------------------------------------
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDEs & Text Editors
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.swp
+*.swo
+*~
+*.bak
+*.sublime-project
+*.sublime-workspace
+
+
+# Presenation & Notebook
+presentation_slides.html
