@@ -143,20 +143,6 @@ npm run dev
 
 ---
 
-## 📹 Video Explanation & Submission Checklist
-
-As required by CodeAlpha instructions:
-- [ ] Upload repository to GitHub under: `CodeAlpha_CreditScoring_Model`
-- [ ] Record video walkthrough demonstrating:
-  1. Overview of the Credit Scoring problem and feature engineering.
-  2. Training pipeline output and model evaluation metrics (ROC-AUC, Precision, Recall, F1).
-  3. Live demonstration of the Next.js frontend with score gauge and What-If simulator.
-  4. Explanation of NestJS Gateway and FastAPI ML microservice architecture.
-- [ ] Post video on LinkedIn tagging **@CodeAlpha** with the GitHub repository link.
-- [ ] Submit task URL via the official CodeAlpha Submission Form.
-
----
-
 ## 👨‍💻 Author & Acknowledgements
 - Developed by: **Santosh Saha**
 - Role: Machine Learning Intern at [CodeAlpha](https://www.codealpha.tech/)
