@@ -302,9 +302,9 @@ const Home:React.FC =():React.JSX.Element=> {
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 text-xs sm:flex-row sm:px-6 lg:px-8">
           <p className="font-medium text-slate-400">CreditAlpha <span className="text-slate-600">·</span> Developed by <span className="text-indigo-400 font-semibold">Santosh Saha</span></p>
           <div className="flex items-center gap-2 text-slate-500">
-            <span>CodeAlpha ML Internship</span>
+            <span>Supervised ML Model</span>
             <span aria-hidden="true">·</span>
-            <span>Task 1: Credit Scoring</span>
+            <span>Credit Scoring Model</span>
           </div>
         </div>
       </footer>
